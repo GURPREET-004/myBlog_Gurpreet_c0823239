@@ -220,7 +220,7 @@ font-size: 1.7rem;
 
 .experience .box-container .box{
   position: relative;
-  flex:1 1 33rem;
+ 
   border-left: .2rem solid var(--main-color);
   padding-left: 2rem;
   padding-right: 2rem;
@@ -375,3 +375,20 @@ font-size: 1.7rem;
   color:var(--main-color);
 }
 
+@media(max-width:991px)
+  {
+html{
+    font-size: 55%;
+
+}
+body{
+    padding: 0;
+
+}
+#menu-bars{
+    display: initial;
+}
+header{
+   left: 120%; 
+}
+  }
